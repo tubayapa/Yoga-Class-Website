@@ -1,0 +1,547 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e9e8e0;
+  background-attachment: fixed;
+  overflow-x:hidden; 
+  
+  
+}
+/* nav start*/
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 80px;
+  min-width: 100%;
+  box-shadow: rgba(109, 109, 109, 0.15) 0px 25px 20px -20px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+nav header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav header a {
+  font-size: 35px;
+  color: #f99c76;
+}
+
+nav header h1 {
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav header h1 span {
+  color: #f99c76;
+  font-weight: bolder;
+  margin-left: -5px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: #f99c76;
+  font-weight: lighter;
+}
+nav ul li a:hover {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.474);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.787);
+  transition: 0, 7s;
+}
+nav ul li {
+  z-index: 999;
+}
+/* nav finish*/
+
+/*main start*/
+section .course-container{
+  height: 50vh;
+  
+
+}
+
+.course-content {
+  margin: 200px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  height: 50vh;
+}
+  
+.course-text {
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+font-size: 20px;
+text-align: center; 
+flex: 2;
+}
+
+.course-text h2 {
+  color: #f99c76;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+}
+
+.course-text h2 span {
+  color: #8c907d;
+}
+
+.course-text .p-info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(32, 32, 32, 0.761);
+  font-weight: lighter;
+  max-width: 800px;
+  max-height: 4;
+  
+}
+
+.image-yogaperson {
+  flex: 1;
+
+}
+.image-yogaperson img {
+  width: 450px;
+}
+
+.btn-more {
+  border: none;
+  padding: 10px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri,;
+  background-color: #f99c76;
+  color: #f6ded0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.btn-more:hover {
+  opacity: 0, 5;
+  transition: 0, 5s;
+  background-color: #ff672a;
+}
+
+/* ! info start */
+.info-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  padding: 30px 20px;
+  background-color: #f99c76;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.718);
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  
+}
+
+.info-content .info-sec {
+  
+  flex: 1;
+  display: flex;
+  margin-top: 20px;
+  
+ 
+}
+.image-sec {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.info-content .info-sec h3 {
+  background-color: #c2d4c9;
+  font-weight: lighter;
+  color: #000000;
+  padding: 10px 200px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 50%;
+}
+.info-content .info-sec p {
+  color: rgb(58, 57, 57);
+ padding: 30px;
+  max-width: 500px;
+}
+section .learn-button {
+  border: none;
+  padding: 10px 20px;
+  position: absolute;
+  background-color: #c2d4c9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri,;  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 15px;
+  margin: -80px 600px;
+}
+section .learn-button:hover {
+  transform: scale(0.9);
+  /* transform: rotate(360deg); */
+  transition: 0.5s;
+  background-color: #ff672a;
+}
+/*  info finish */
+
+/*  card start */
+.card-conteiner {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.card-conteiner h3 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  color: #f99c76;
+  border-bottom: solid 1px;
+  border-radius: 50%;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  margin: 10px;
+  background-color: #c2d4c9;
+  box-shadow: rgba(128, 128, 128, 0.236) 0 0px 4px  4px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(5px);
+  transition: 0, 5s;
+}
+
+.card-content .card button {
+  border: none;
+  padding: 3px 7px;
+  background-color: #f99c76;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
+
+.card-content .card img 
+{ background-color: #f99c76;
+  border-radius: 80%;
+  max-width: 200px;
+  
+}
+
+.card p mark {
+  background-color: #f6ded0;
+}
+/*  card finish */
+
+/* !video area starts */
+
+.video-container{
+  margin-top: 80px;
+  text-align: center;
+}
+.video-container h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  color: #f99c76;
+  border-bottom: solid 1px;
+  border-radius: 50%;
+}
+.video-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 50px;
+ 
+}
+
+.video1, .video2, .video3{
+width: 450px;
+height: 300px;
+}
+/*  footer start */
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid grey;
+  border-radius: 50px;
+}
+
+.footer-tag {
+ margin-top: 20px;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  color: #f99c76;
+  text-align: center;
+  }
+
+.footer-start {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+.footer-area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer-area h4 {
+  font-weight: bold;
+  color:#f99c76;
+}
+
+.footer-area a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+}
+
+footer .bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid gray;
+  padding: 20px;
+  color: #8c907d;
+}
+
+footer .icons {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 22px;
+ gap:10px;
+margin-top: 15px;
+ 
+}
+
+footer .icons i{
+  color: #ff672a;
+  cursor: pointer;
+}
+footer .icons i:hover{
+color: gray;
+}
+
+/*  footer finish */
+
+  @media (max-width: 750px) {
+  nav ul {
+    display: none;
+  }
+  
+  .course-container{
+    position: relative;
+    max-height: 20vh;
+  }
+
+  .course-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+  }
+  .course-text {
+    position: absolute;
+    z-index: 3; 
+    max-width: 300px;
+    font-weight: bolder;
+  }
+ 
+  .image-yogaperson img {
+    max-width: 600px;
+    opacity: 0.2;
+    margin-bottom: 200px;
+    
+  }
+
+  .course-text .btn-more {
+    margin-top: 50px;
+  }
+
+  .info-content {
+    flex-direction: column-reverse;
+    margin-top: 400px;
+    font-size: 16px;
+  }
+
+  .info-content .info-sec h3 {
+    background-color: #c2d4c9;
+    font-weight: lighter;
+    color: #000000;
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 50%;}
+
+  .info-content .image-sec {
+    padding: 10px 0;
+    
+  }
+
+  .info-content .info-sec p {
+    margin-top: -20px;
+    max-width: 400px;
+    font-size: 18px;
+  }
+
+  .card-content {
+    flex-direction: column-reverse;
+    font-size: 15px;
+    align-items: center;
+  }
+  .video-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+     gap: 30px;
+     max-width:500px;
+     
+   }
+
+  footer .footer-start {
+     
+      text-align: center;
+    }
+  
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  footer .icons{
+    margin-top: 25px;
+  }
+} 
+
+@media (max-width: 481px) {
+
+
+  .course-container{
+    position: relative;
+    max-height: 8vh;
+  }
+
+  .course-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 140px;
+    
+  }
+  .course-text {
+    position: absolute;
+    z-index: 3; 
+    max-width: 300px;
+    font-weight: bolder;
+  }
+ 
+  .image-yogaperson img {
+    max-width: 350px;
+    opacity: 0.2;
+    margin-bottom: 200px;
+    
+  }
+
+  .course-text .btn-more {
+    margin-top: 50px;
+  }
+
+  .info-content {
+    flex-direction: column-reverse;
+    margin-top: 400px;
+    font-size: 16px;
+  }
+
+  .info-content .info-sec h3 {
+    background-color: #c2d4c9;
+    font-weight: lighter;
+    color: #000000;
+    padding: 10px 10px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 50%;}
+
+  .info-content .image-sec {
+    padding: 10px 0;
+    
+  }
+
+  .info-content .info-sec p {
+    margin-top: -20px;
+    max-width: 400px;
+  }
+
+  .card-content {
+    flex-direction: column-reverse;
+    font-size: 15px;
+    align-items: center;
+  }
+  .video-content{
+    display: flex;
+    flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+  
+     gap: 30px;
+     max-width:370px;
+     
+   }
+
+  footer .footer-start {
+     
+      text-align: center;
+    }
+  
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  footer .icons{
+    margin-top: 35px;
+  }
+}
